@@ -1,0 +1,38 @@
+Codebook
+
+Raw data:
+activities labels information taken from activity_labels.txt ("walking", "walkingUpstairs", "walkingDownstairs", "sitting", "standing", "laying")
+features which are the names of the columns for x_test and x_train data. The complete list of variables of each feature vector is available in 'features.txt'
+test and train data of some users wearing Samsung phone which are taken from X_test.txt and X.train.txt respectively
+subject and activity data for each test and train session (subject_test.txt, y_test.txt, subject_train.txt, y_train.txt)
+
+Processed Data:
+66 variables contains means and standard deviation filtered from merged x_test and x_train data.frame, angle variable is not included
+[1] "activity"                 "subject"                  "tBodyAccMeanX"           
+ [4] "tBodyAccMeanY"            "tBodyAccMeanZ"            "tBodyAccSTDX"            
+ [7] "tBodyAccSTDY"             "tBodyAccSTDZ"             "tGravityAccMeanX"        
+[10] "tGravityAccMeanY"         "tGravityAccMeanZ"         "tGravityAccSTDX"         
+[13] "tGravityAccSTDY"          "tGravityAccSTDZ"          "tBodyAccJerkMeanX"       
+[16] "tBodyAccJerkMeanY"        "tBodyAccJerkMeanZ"        "tBodyAccJerkSTDX"        
+[19] "tBodyAccJerkSTDY"         "tBodyAccJerkSTDZ"         "tBodyGyroMeanX"          
+[22] "tBodyGyroMeanY"           "tBodyGyroMeanZ"           "tBodyGyroSTDX"           
+[25] "tBodyGyroSTDY"            "tBodyGyroSTDZ"            "tBodyGyroJerkMeanX"      
+[28] "tBodyGyroJerkMeanY"       "tBodyGyroJerkMeanZ"       "tBodyGyroJerkSTDX"       
+[31] "tBodyGyroJerkSTDY"        "tBodyGyroJerkSTDZ"        "tBodyAccMagMean"         
+[34] "tBodyAccMagSTD"           "tGravityAccMagMean"       "tGravityAccMagSTD"       
+[37] "tBodyAccJerkMagMean"      "tBodyAccJerkMagSTD"       "tBodyGyroMagMean"        
+[40] "tBodyGyroMagSTD"          "tBodyGyroJerkMagMean"     "tBodyGyroJerkMagSTD"     
+[43] "fBodyAccMeanX"            "fBodyAccMeanY"            "fBodyAccMeanZ"           
+[46] "fBodyAccSTDX"             "fBodyAccSTDY"             "fBodyAccSTDZ"            
+[49] "fBodyAccJerkMeanX"        "fBodyAccJerkMeanY"        "fBodyAccJerkMeanZ"       
+[52] "fBodyAccJerkSTDX"         "fBodyAccJerkSTDY"         "fBodyAccJerkSTDZ"        
+[55] "fBodyGyroMeanX"           "fBodyGyroMeanY"           "fBodyGyroMeanZ"          
+[58] "fBodyGyroSTDX"            "fBodyGyroSTDY"            "fBodyGyroSTDZ"           
+[61] "fBodyAccMagMean"          "fBodyAccMagSTD"           "fBodyAccJerkMagMean" 
+[64] "fBodyAccJerkMagSTD"   	"fBodyGyroMagMean"     	   "fBodyGyroMagSTD"     
+[67] "fBodyGyroJerkMagMean" 	"fBodyGyroJerkMagSTD" 
+
+activity was converted from data taken from activity_labels.txt based on y_test.txt and y_train.txt, and coded as factors
+user was coded as factors
+value for 66 means and standard deviation are averaged based on each user and each activity
+
