@@ -1,5 +1,5 @@
 ## Analyse Samsung's Wearable Experiment Data
-This script creates a tidy data from a Samsung experimental data on user activity wearing a Samsung Galaxy S smartphone.
+This script creates a tidy data from a Samsung experimental data on user activity wearing a Samsung Galaxy S smartphone (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 The data produced gives information about averaged value of mean() and std() for each selected variables based on unique user and activity
 
 ## Steps 
