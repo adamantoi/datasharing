@@ -1,6 +1,7 @@
 Codebook
 
 Raw data:
+Data is taken from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 activities labels information taken from activity_labels.txt ("walking", "walkingUpstairs", "walkingDownstairs", "sitting", "standing", "laying")
 features which are the names of the columns for x_test and x_train data. The complete list of variables of each feature vector is available in 'features.txt'
 test and train data of some users wearing Samsung phone which are taken from X_test.txt and X.train.txt respectively
